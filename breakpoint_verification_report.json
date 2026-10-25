@@ -1,0 +1,79 @@
+{
+  "competition_bundle": "Superteam Earn — Solana Breakpoint 2026 Dual Cash Bounties",
+  "combined_cash_pool": "$11,000 USDG Cash (30 Total Winner Slots)",
+  "bounties": [
+    {
+      "bounty_a_en_germany": {
+        "slug": "travel-boost-for-bp26",
+        "reward_pool_cash": "6,000 USDG (15 x 400 USDG)",
+        "checks": {
+          "mentions_SolanaEvents": true,
+          "mentions_SuperteamDE": true,
+          "includes_mandatory_luma_tracking_link": true,
+          "includes_london_venue_and_dates": true,
+          "all_tweets_within_280_chars": true,
+          "max_tweet_length": 261
+        },
+        "verified": true
+      },
+      "submission_payload": {
+        "slug": "travel-boost-for-bp26",
+        "url": "https://earn.superteam.fun/listing/travel-boost-for-bp26",
+        "sponsor": "Superteam Germany",
+        "reward_pool_cash": "6,000 USDG (15 x 400 USDG)",
+        "mandatory_tags": [
+          "@SolanaEvents",
+          "@SuperteamDE"
+        ],
+        "mandatory_cta_url": "https://luma.com/breakpoint2026?tk=HYnlfc",
+        "venue_and_dates": "Olympia London | November 15-17, 2026",
+        "x_thread_and_qrt": [
+          "1/5 Breakpoint is coming to EUROPE for the first time in 4 years — and @SuperteamDE builders are heading to Olympia London (Nov 15–17, 2026)! 🇩🇪🇬🇧\n\nWhy @SolanaEvents Breakpoint 2026 is the #1 builder summit of the year:\nhttps://luma.com/breakpoint2026?tk=HYnlfc",
+          "2/5 Zero fluff, 100% live mainnet engineering: Firedancer production milestones, Alpenglow consensus finality, ZK Compression at scale, and live SVM institutional payment rails unveiled directly on stage.",
+          "3/5 For the German Solana ecosystem (@SuperteamDE), London is a 90-minute flight from Berlin, Munich & Frankfurt — turning Breakpoint 2026 into our home-turf European hackathon and founder summit.",
+          "4/5 Whether you're shipping DePIN hardware, autonomous AI agent treasuries, or sub-second CLOBs on Solana, 3 days in Olympia London compresses 6 months of partnerships into one weekend.",
+          "5/5 Grab your official Breakpoint 2026 pass before the next tier closes and join the @SuperteamDE builder contingent in London with @SolanaEvents:\n👉 https://luma.com/breakpoint2026?tk=HYnlfc"
+        ],
+        "video_60s_script_and_linkedin": "From Berlin & Munich to Olympia London: Why @SuperteamDE is mobilizing for @SolanaEvents Breakpoint 2026 (Nov 15–17, 2026). Full 60 FPS motion reel + builder itinerary inside. Secure your ticket here: https://luma.com/breakpoint2026?tk=HYnlfc"
+      }
+    },
+    {
+      "bounty_b_es_spain": {
+        "slug": "rumbo-a-breakpoint-2026-gana-una-entrada-y-apoyo-para-tu-viaje",
+        "reward_pool_cash": "5,000 USDG (10 x 400 USDG + 5 x 200 USDG = 15 Winners)",
+        "checks": {
+          "mentions_SolanaEvents": true,
+          "mentions_LaFamilia_so": true,
+          "includes_mandatory_luma_link": true,
+          "includes_mandatory_discount_code_SUPERTEAM_NH7_BP26": true,
+          "all_tweets_within_280_chars": true,
+          "max_tweet_length": 229
+        },
+        "verified": true
+      },
+      "submission_payload": {
+        "slug": "rumbo-a-breakpoint-2026-gana-una-entrada-y-apoyo-para-tu-viaje",
+        "url": "https://earn.superteam.fun/listing/rumbo-a-breakpoint-2026-gana-una-entrada-y-apoyo-para-tu-viaje",
+        "sponsor": "La Familia (Spain)",
+        "reward_pool_cash": "5,000 USDG (10 x 400 USDG + 5 x 200 USDG = 15 Winners)",
+        "mandatory_tags": [
+          "@SolanaEvents",
+          "@LaFamilia_so"
+        ],
+        "mandatory_cta_url": "https://luma.com/breakpoint2026",
+        "mandatory_discount_code": "SUPERTEAM-NH7-BP26",
+        "venue_and_dates": "Olympia London | 15-17 de noviembre de 2026",
+        "x_thread_es": [
+          "1/5 ¡Por primera vez en 4 años, Solana Breakpoint llega a Europa (Olympia London, 15–17 Nov 2026) y @LaFamilia_so va con todo! 🇪🇸🇬🇧\n\nEntradas en @SolanaEvents con 25% DTO usando SUPERTEAM-NH7-BP26:\nhttps://luma.com/breakpoint2026",
+          "2/5 ¿Por qué todo builder y creador de España debe estar en Londres? Breakpoint no tiene paneles teóricos: es donde se lanzan en vivo las innovaciones clave de todo el ecosistema Solana.",
+          "3/5 De Madrid, Barcelona, Valencia o Málaga a Londres en 2 horas: 3 días conectando cara a cara con equipos core de SVM, inversores globales y los builders de @LaFamilia_so.",
+          "4/5 Mi plan en Breakpoint 2026: cubrir en español cada anuncio técnico de Firedancer, Alpenglow y pagos SVM, y conectar proyectos de @LaFamilia_so con liquidez global.",
+          "5/5 No te quedes fuera de la cita más importante del año con @SolanaEvents y @LaFamilia_so.\n🎟️ Entradas: https://luma.com/breakpoint2026\n🏷️ Código 25% DTO: SUPERTEAM-NH7-BP26"
+        ],
+        "video_60s_script_es": "Rumbo a Breakpoint 2026 en Londres (15–17 Nov) con @LaFamilia_so y @SolanaEvents. Consigue tu entrada con 25% de descuento usando el código SUPERTEAM-NH7-BP26 en https://luma.com/breakpoint2026"
+      }
+    }
+  ],
+  "verification_status": "PASSED_ALL_MANDATORY_CTA_TAGS_AND_DISCOUNT_CODES",
+  "sha256": "bd9a88e65ff4557e002518069f443a7b53c658754213d380e1c737e733a13ca2"
+}

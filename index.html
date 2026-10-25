@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Superteam Earn — Solana Breakpoint 2026 Dual Cash Bounties ($11,000 USDG / 30 Winners)</title>
+  <style>
+    :root {
+      --bg: #070812;
+      --card: #111428;
+      --border: #252b54;
+      --sol-green: #14f195;
+      --sol-purple: #9945ff;
+      --text: #f8fafc;
+      --muted: #94a3b8;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: radial-gradient(circle at top right, #1f143d 0%, var(--bg) 65%);
+      color: var(--text);
+      padding: 28px;
+      line-height: 1.55;
+    }
+    .container { max-width: 1240px; margin: 0 auto; }
+    header {
+      background: linear-gradient(135deg, rgba(153,69,255,0.18), rgba(20,241,149,0.12));
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 24px 28px;
+      margin-bottom: 24px;
+    }
+    .badge {
+      display: inline-block;
+      background: rgba(20,241,149,0.16);
+      color: var(--sol-green);
+      border: 1px solid rgba(20,241,149,0.45);
+      padding: 4px 12px;
+      border-radius: 999px;
+      font-size: 0.78rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      margin-bottom: 8px;
+    }
+    h1 { font-size: 1.65rem; font-weight: 800; }
+    .subtitle { color: var(--muted); font-size: 0.92rem; margin-top: 4px; }
+    .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 22px; }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 22px;
+    }
+    .tweet-box {
+      background: #080a16;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 12px;
+      margin: 10px 0;
+      font-size: 0.84rem;
+      white-space: pre-wrap;
+    }
+    button {
+      background: linear-gradient(90deg, var(--sol-purple), var(--sol-green));
+      color: #050811;
+      border: none;
+      border-radius: 8px;
+      padding: 8px 14px;
+      font-weight: 800;
+      cursor: pointer;
+      font-size: 0.82rem;
+      margin-top: 6px;
+    }
+    canvas {
+      width: 100%;
+      height: 180px;
+      border-radius: 12px;
+      border: 1px solid var(--border);
+      margin-bottom: 18px;
+      background: #05070f;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <span class="badge">Superteam Earn • $11,000 USDG Cash Pool (30 Guaranteed Winner Slots!)</span>
+      <h1>Solana Breakpoint 2026 (Olympia London, Nov 15–17) — Dual Bounty Studio</h1>
+      <p class="subtitle">Bounty A: <code>travel-boost-for-bp26</code> ($6,000 USDG = 15 × $400) • Bounty B: <code>rumbo-a-breakpoint-2026</code> ($5,000 USDG = 15 Winners, only 11 entries!)</p>
+    </header>
+
+    <canvas id="reelCanvas" width="1180" height="180"></canvas>
+
+    <div class="grid">
+      <!-- Bounty A -->
+      <div class="card">
+        <h2>🇩🇪🇬🇧 Bounty A: Travel Boost for BP26 ($6,000 USDG)</h2>
+        <p style="font-size:0.82rem;color:var(--muted);margin-bottom:8px;">
+          Tags: <code>@SolanaEvents</code> + <code>@SuperteamDE</code> • CTA: <code>https://luma.com/breakpoint2026?tk=HYnlfc</code>
+        </p>
+        <div class="tweet-box" id="bounty-a-text">1/5 Breakpoint is coming to EUROPE for the first time in 4 years — and @SuperteamDE builders are heading to Olympia London (Nov 15–17, 2026)! 🇩🇪🇬🇧
+
+Why @SolanaEvents Breakpoint 2026 is the #1 builder summit of the year:
+https://luma.com/breakpoint2026?tk=HYnlfc
+
+2/5 Zero fluff, 100% live mainnet engineering: Firedancer production milestones, Alpenglow consensus finality, ZK Compression at scale, and live SVM institutional payment rails unveiled directly on stage.
+
+3/5 For the German Solana ecosystem (@SuperteamDE), London is a 90-minute flight from Berlin, Munich & Frankfurt — turning Breakpoint 2026 into our home-turf European hackathon and founder summit.
+
+4/5 Whether you're shipping DePIN hardware, autonomous AI agent treasuries, or sub-second CLOBs on Solana, 3 days in Olympia London compresses 6 months of partnerships into one weekend.
+
+5/5 Grab your official Breakpoint 2026 pass before the next tier closes and join the @SuperteamDE builder contingent in London with @SolanaEvents:
+👉 https://luma.com/breakpoint2026?tk=HYnlfc</div>
+        <button onclick="copyText('bounty-a-text')">Copy EN Thread &amp; QRT</button>
+      </div>
+
+      <!-- Bounty B -->
+      <div class="card">
+        <h2>🇪🇸🇬🇧 Bounty B: Rumbo a Breakpoint 2026 ($5,000 USDG)</h2>
+        <p style="font-size:0.82rem;color:var(--muted);margin-bottom:8px;">
+          Tags: <code>@SolanaEvents</code> + <code>@LaFamilia_so</code> • Code: <code>SUPERTEAM-NH7-BP26</code> • CTA: <code>https://luma.com/breakpoint2026</code>
+        </p>
+        <div class="tweet-box" id="bounty-b-text">1/5 ¡Por primera vez en 4 años, Solana Breakpoint llega a Europa (Olympia London, 15–17 Nov 2026) y @LaFamilia_so va con todo! 🇪🇸🇬🇧
+
+Entradas en @SolanaEvents con 25% DTO usando SUPERTEAM-NH7-BP26:
+https://luma.com/breakpoint2026
+
+2/5 ¿Por qué todo builder y creador de España debe estar en Londres? Breakpoint no tiene paneles teóricos: es donde se lanzan en vivo las innovaciones clave de todo el ecosistema Solana.
+
+3/5 De Madrid, Barcelona, Valencia o Málaga a Londres en 2 horas: 3 días conectando cara a cara con equipos core de SVM, inversores globales y los builders de @LaFamilia_so.
+
+4/5 Mi plan en Breakpoint 2026: cubrir en español cada anuncio técnico de Firedancer, Alpenglow y pagos SVM, y conectar proyectos de @LaFamilia_so con liquidez global.
+
+5/5 No te quedes fuera de la cita más importante del año con @SolanaEvents y @LaFamilia_so.
+🎟️ Entradas: https://luma.com/breakpoint2026
+🏷️ Código 25% DTO: SUPERTEAM-NH7-BP26</div>
+        <button onclick="copyText('bounty-b-text')">Copy ES Thread (La Familia)</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function copyText(id) {
+      const text = document.getElementById(id).textContent;
+      navigator.clipboard.writeText(text);
+      alert('Copied submission thread to clipboard!');
+    }
+
+    const canvas = document.getElementById('reelCanvas');
+    const ctx = canvas.getContext('2d');
+    let t = 0;
+    function renderReel() {
+      t += 0.03;
+      ctx.fillStyle = '#070914';
+      ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+      for (let i = 0; i < 24; i++) {
+        const x = (i * 52 + t * 35) % canvas.width;
+        const h = 40 + 45 * Math.sin(t + i * 0.45);
+        ctx.fillStyle = i % 2 === 0 ? 'rgba(20,241,149,0.22)' : 'rgba(153,69,255,0.22)';
+        ctx.fillRect(x, canvas.height - h - 20, 26, h);
+      }
+
+      ctx.fillStyle = '#14f195';
+      ctx.font = 'bold 20px Inter, sans-serif';
+      ctx.fillText('SOLANA BREAKPOINT 2026 • OLYMPIA LONDON (NOV 15–17, 2026)', 28, 52);
+      ctx.fillStyle = '#e2e8f0';
+      ctx.font = '15px monospace';
+      ctx.fillText('@SolanaEvents × @SuperteamDE (?tk=HYnlfc)  |  @LaFamilia_so (Code: SUPERTEAM-NH7-BP26)', 28, 86);
+      requestAnimationFrame(renderReel);
+    }
+    renderReel();
+  </script>
+</body>
+</html>
